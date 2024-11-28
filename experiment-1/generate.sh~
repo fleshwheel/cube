@@ -1,0 +1,2 @@
+for bmpfile in inputs/*.bmp; do
+    ../prism/decode.py $bmpfile $bmpfile.wav
